@@ -3,13 +3,13 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int ch;
-	int ch;
+	int CH;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
@@ -22,7 +22,7 @@ int main(void)
 		putchar(CH);
 
 	{
-		putchar('\n')
+		putchar('\n');
 	}
 
 	return (0);
