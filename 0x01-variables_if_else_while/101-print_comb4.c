@@ -16,13 +16,17 @@ int main(void)
 		{
 			for (ones = '2'; ones <= '9'; ones++)
 			{
-				putchar(hundred);
-				putchar(tens);
-				putchar(ones);
-				if (!(hundred == '7' && tens == '8' && ones == '9'))
+				if (hundred != tens && hundred != ones && hundred < tens && tens < ones)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(hundred);
+					putchar(tens);
+					putchar(ones);
+					if (!(hundred == '7' && tens == '8' && ones == '9'))
+					{
+						putchar(',');
+						putchar(' ');
+					}
+
 				}
 
 			}
